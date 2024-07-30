@@ -34,6 +34,8 @@ public class SSID_Forgot_004 extends BaseTest{
 		login_Page.getForgotPassword().click();
 		Reporter.log("Clicking on Forgot Password from Login Page",true);
 		test.log(Status.INFO,"Forgot Password Page is Displayed");
+
+		//New Change
 		
 		//Entering the valid Email to reset password
 		ForgotPasswordPage forgotpassword_Page = new ForgotPasswordPage(driver);
