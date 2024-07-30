@@ -34,6 +34,8 @@ public class SSID_Regi_027 extends BaseTest{
 		Reporter.log("Clicking on Create Account",true);
 		test.log(Status.INFO,"Signup Page is Displayed");
 		
+		//New //
+		
 		//Clicking on the Password Field
 		SignupPage signup_Page = new SignupPage(driver);
 		signup_Page.getPasswordField().click();
